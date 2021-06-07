@@ -1,74 +1,159 @@
-body {
-    font-family: "Noto Sans JP", "Sans-serif";
+/*
+*画面のスタイルシート
+*/
+
+body{
+    font-family: "Noto Sans JP","Sans-serif";
     margin: 0;
-    min-width: 1076px;
+    min-width:1076px;
 }
 
-.color-green {
+.color-green{
     color: #00ABAE;
 }
 
-.sub-title {
+.sub-title{
     font-size: 32px;
 }
+/*
+*[header]のスタイルシート
+*/
 
-.block-header {
+.block-header{
     margin: 10px 0;
     padding: 0 20px 10px;
-    box-shadow: 0 10px 10px -5px rgba(204, 204, 204, 0.3);
+    box-shadow: 0 10px 10px -5px rgba(204,204,204,0.3);
 }
 
-.block-header a {
+.block-header a{
     font-size: 40px;
     color: #000;
-    text-decoration: none;
-    letter-spacing: 1px;
+    text-decoration: none;/*線*/
+    letter-spacing: 1px;/*文字の間隔*/
 }
 
 
-.block-main {
+/*
+*[main]のスタイルシート
+*/
+
+.block-main{
     text-align: center;
     margin: 100px 0;
 }
 
-.item-list {
+/*
+*[profile]のスタイルシート
+*/
+
+.item-list{
     width: 100%;
     max-width: 348px;
     margin: 0 auto;
 }
 
-.item-list b {
-    display: block;
-    font-size: 24px;
+.item-list b{
+    display: block;/*ブロック要素になると縦に並ぶ*/
+    font-size:  24px;
     font-weight: normal;
-    margin: 20px 0 30px;
+    margin : 20px 0 30px;
 }
 
-.item-list p {
+.item-list p{
     font-size: 15px;
     line-height: normal;
     text-align: left;
 }
 
-.icon-list {
+.icon-list{
     list-style: none;
     width: 100%;
-    max-width: 247px;
-    margin: 30px auto;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* max-width: 247px; */
+    margin:　30px auto;
+    padding:  0;
+    display: flex;/*縦横中央に配置される*/
+    justify-content: center;/*縦横中央に配置される*/
+    align-items: center;/*縦横中央に配置される */
 }
 
-.icon-list li {
+.icon-list li{
     margin-right: 22px;
 }
 
-.icon-list li:last-child {
+.icon-list li:last-child{
     margin-right: 0px;
 }
 
 .icon-list img{
     width:50px;
+}
+
+/*
+*[works]のスタイルシート
+*/
+
+.box-works{
+    margin: 80px 0 0;
+}
+
+.works-list{
+    list-style: none;
+    width: 100%;
+    max-width: 1076px;
+    margin:30px auto;
+    padding:0;
+    text-align: left;
+    overflow: hidden;
+}
+
+.works-list li{
+    display:block;
+    width:100%;
+    max-width: 348px;
+    float:left;
+    margin-right: 15px;
+}
+
+.works-list li:last-child{
+    margin-right: 0px;
+}
+
+.works-list li img{
+    width:100%;
+    border:1px solid #ccc;
+}
+
+.works-list li h3{
+    font-size: 24px;
+    margin:10px 0;
+}
+
+.works-list li span{
+    font-size:18px;
+}
+
+.works-list li .link{
+    display:flex;
+    justify-content: left;
+    align-items: left;
+    margin-top:15px;
+}
+
+.works-list li .link a{
+    background-color: rgb(226,226,226);
+    padding:5px 20px;
+    margin-right:10px;
+    font-size: 15px;
+    text-decoration: none;/*下線なし*/
+    color: #000;
+}
+
+
+
+
+.block-footer p{
+    clear: both;/*float:left;を解除*/
+    text-align: center;
+    font-size: 15px;
+    margin:50px 0 20px;
 }
