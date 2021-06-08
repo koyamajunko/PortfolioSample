@@ -6,17 +6,10 @@ Portfolio Smaple
 ## デモ
 [WEBサイトをみる](https://portfoliosample-koyama.herokuapp.com/)
 
+![image](https://user-images.githubusercontent.com/83483833/121160697-48a75c80-c887-11eb-8559-1eaee7960a2f.png)
+
 ## 利用している技術
-使った言語やツールなどのバージョンを記載する。
+HTML / CSS
 
 ## インスール方法
-インストールの仕方を記載する。
-
-### その他に記載すると良い事項
-* システム構成図
-* 使い方
-    * インストール方法
-    * テスト方法
-    * デプロイ方法
-* こだわりポイント
-* ライセンス情報
+そのままindex.htmlをブラウザで開くと閲覧できます。
