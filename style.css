@@ -68,8 +68,8 @@ body{
 .icon-list{
     list-style: none;
     width: 100%;
-    /* max-width: 247px; */
-    margin:　30px auto;
+    max-width: 247px;
+    margin: 30px auto;
     padding:  0;
     display: flex;/*縦横中央に配置される*/
     justify-content: center;/*縦横中央に配置される*/
